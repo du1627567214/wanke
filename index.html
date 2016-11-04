@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>万科</title>
+<style type="text/css">
+	html,body,a,p,h1,h2,h3,ul,li{
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		text-decoration: none;
+		font: 12px/1 "Microsoft Yahei", "微软雅黑", sans-serif;
+	}
+	.header{
+		width: 1130px;
+		height: 79px;
+		margin: 0 auto;
+		position: relative;
+		line-height: 79px; font-size: 13px;font-weight: bold;
+	}
+	.logo{
+		position: absolute;
+	    top: 26px;
+	    left: 1px;
+	    width: 151px;
+	    height: 26px;
+	    background: url(logo.png) no-repeat 0 0;
+	}
+	.nav{
+		width: 652px;
+		position: absolute;
+	    top: 0;
+	    right: 171px;
+	    z-index: 4;
+	    height: 100%;
+	}
+	/*.red{
+		background: red;
+	}*/
+	.nav li{
+		float: left;
+		height: 100%;
+		position: relative;
+		line-height: 79px;
+		font-size: 13px; font-weight: bold;text-align: center;
+	    color: #666;
+	    cursor: pointer;
+	    -webkit-transition: color 200ms;
+	    transition: color 200ms;
+	}
+	.nav li span{
+		width: 100%;
+		height: 100%;
+		display: block;
+		position: absolute;
+		z-index: 10;
+	}
+	.nav li:hover{
+		color: #fff;
+	}
+	.nav li div{
+		z-index: 8;height: 0;
+		position: absolute;
+		transition: all 0.2s linear;
+		/*transition: all ;*/
+	}
+	.aa{
+		bottom: 0;
+		width: 100%;
+		background: red;
+	}
+	.nav li:hover .aa{
+		height: 79px;
+
+	}
+	.nav li:hover .bb{
+		height: 61px;
+	}
+	.bb{
+	    top: 100%;
+	    /*width: 1000px;*/
+	    overflow: hidden;
+	    box-sizing: border-box;
+	    background-color: #4c4a4f;
+	    padding: 0 67px;
+	    -webkit-transition: top 300ms;
+	    transition: top 300ms;
+	}
+	.bb a{
+		display: inline-block;
+		float: left;
+	    padding: 0 16px;
+	    font-weight: bold;
+	    font-size: 13px;
+	    line-height: 61px;
+	    color: #d2ced5;
+	}
+	.bb a:hover{
+		color: #F63B2E;
+	}
+	.head-right{
+		position: absolute;
+	    bottom: 0;
+	    right: 0;
+	    z-index: 5;
+	    width: 170px;
+	    height: 100%;
+	    border-left: 1px solid #e5e5e5;
+	}
+	.head-right a{
+		display: block;float: left;
+		height: 100%;
+		color: #666369;
+	}
+	.head-right a:hover{
+		color: #ff2424;
+	}
+	.head-right a:nth-of-type(1) {
+	    width: 20px;
+	    height: 20px;
+		margin: 30px 0 0 15px;
+	    background: url(icon_search.png) no-repeat 0px 0px;
+	}
+	.head-rightz{
+	    padding: 0 10px;
+	    
+	    line-height: 76px;
+	    color: #666369;
+	    background-color: #fff;
+	    -webkit-transition: color 300ms;
+	    transition: color 300ms;
+	}
+	.head-rightz i{
+		display: inline-block;
+		width: 7px;
+		height: 4px;
+		background: url(head-nw-icon.png) right center no-repeat;
+		position: absolute;top: 37px; right: 2px;
+	}
+	/*.cc{
+		position: relative;
+		top: 100%;
+		right: 84px;
+		width: 254px;
+		height: 400px;
+		background: #000;
+	}*/
+</style>	
+</head>
+<body>
+	<div class="header">
+		<a href="#" class="logo"></a>
+		<ul class="nav">
+			<li  style="width:58px">
+				<span>首页</span>
+				<div class="aa red"></div>
+			</li>
+			<li style="width:83px">
+				<span>万科集团</span>
+				<div class="aa"></div>
+				<div class="bb">
+					<a href="#">集团介绍</a>
+					<a href="#">领导团队</a>
+					<a href="#">大事记</a>
+				</div>
+			</li>
+			<li style="width:83px">
+				<span>新闻中心</span>
+				<div class="aa"></div>
+				<div class="bb">
+					<a href="#">集团介绍</a>
+					<a href="#">领导团队</a>
+					<a href="#">大事记</a>
+				</div>
+			</li>
+			<li style="width:96px">
+				<span>投资者关系</span>
+				<div class="aa"></div>
+				<div class="bb">
+					<a href="#">集团介绍</a>
+					<a href="#">领导团队</a>
+					<a href="#">大事记</a>
+				</div>
+			</li>
+			<li style="width:83px">
+				<span>产品服务</span>
+				<div class="aa"></div>
+				<div class="bb">
+					<a href="#">集团介绍</a>
+					<a href="#">领导团队</a>
+					<a href="#">大事记</a>
+				</div>
+			</li>
+			<li style="width:83px">
+				<span>企业公民</span>
+				<div class="aa"></div>
+				<div class="bb">
+					<a href="#">集团介绍</a>
+					<a href="#">领导团队</a>
+					<a href="#">大事记</a>
+				</div>
+			</li>
+			<li style="width:83px">
+				<span>加入万科</span>
+				<div class="aa"></div>
+			</li>
+			<li style="width:83px">
+				<span>投诉建议</span>
+				<div class="aa"></div>
+			</li>
+		</ul>
+		<div class="head-right">
+			<a href="javascript:void(0)"></a>
+			<a href="javascript:void(0)" class="head-rightz">中/EN</a>
+			<a href="javascript:void(0)" class="head-rightz">万科网群<i></i></a>
+			<div class="cc">
+				
+			</div>
+		</div>
+
+	</div>
+</body>
+<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+<script type="text/javascript">
+	$(".nav li").on('mouseover',function(){
+		var w1=$(this).offset().left;
+		var w2=$("body").width();
+		console.log(w1,w2);
+		$(this).find(".bb").css({
+			"width":w2-w1
+		})
+	})
+</script>
+</html>
